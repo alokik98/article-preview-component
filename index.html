@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Article preview component</title>
+
+</head>
+<body>
+
+  <div class="container bg-white">
+    <div class="row">
+      <div class="col-xl-5 col-12 p-0 drawer">
+        <img src="images/drawers.jpg" alt="drawers" class="img-fluid">
+      </div>
+      <div class="col-xl-7 col-12 mt-3 second-part">
+        <div class="d-flex flex-column justify-content-between">
+          <div class="heading">
+            <h3>Shift the overall look and feel by adding these wonderful 
+              touches to furniture in your home</h3>
+          </div>
+          <div class="paragraph">
+            <p>Ever been in a room and felt like something was missing? Perhaps 
+              it felt slightly bare and uninviting. I’ve got some simple tips 
+              to help you make any room feel complete.</p>
+          </div>
+          <div id="monitor-view" class="d-flex justify-content-between">
+            <div class="d-flex">
+              <div class="avatar">
+                <img src="images/avatar-michelle.jpg" alt="avatar" width="50" height="50">
+              </div>
+              <div class="details">
+                <p class="p-0 m-1">Michelle Appleton</p>
+                <p class="p-0 m-1">28 Jun 2020</p>
+              </div>
+            </div>
+            <button id="btn" class="card__btn" onclick="toggle(social);">
+                <img src="./images/icon-share.svg" alt="Social share button">
+            </button>
+            <div id="social" class="social">
+              <p class="social__text">Share</p>
+              <img src="./images/icon-facebook.svg" alt="">
+              <img src="./images/icon-twitter.svg" alt="">
+              <img src="./images/icon-pinterest.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="./main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
+<!-- 
+  Shift the overall look and feel by adding these wonderful 
+  touches to furniture in your home
+  
+  Ever been in a room and felt like something was missing? Perhaps 
+  it felt slightly bare and uninviting. I’ve got some simple tips 
+  to help you make any room feel complete.
+  
+  Michelle Appleton
+  28 Jun 2020
+  
+  Share -->
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
